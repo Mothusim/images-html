@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        #home{
+            text-align: center;
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            color: #666;
+        }
+        section {
+            padding: 20px;
+        }
+        /* img {
+            max-width: 100%;
+            height: auto;
+        } */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .grid img {
+            width: 100%;
+            height: auto;
+        }
+        .tech-pic{
+            width: 4em;
+            height: 5em;
+        }
+        #gallery h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Image Links</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#menu">Menu</a>
+    </nav>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to my website! Here's an image related to technology:</p>
+        <a href="https://www.tech101.in/" class="tech-pic" target="_blank"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpixfeeds.com%2Fimages%2Ftopic%2F5301%2F1200-5301-information-technology-it-photo2.jpg&f=1&nofb=1&ipt=dfd1a0d41c8d3e0ad6cbf51f647d3adc697da6a74b3ccfd5aa1c233cc1e918a8&ipo=images" alt="Technology"></a>
+    </section>
+    <section id="gallery">
+        <h2>Gallery - Love nature</h2>
+        <div class="grid">
+            <a href="https://wallup.net/nature-river-mountain-trees-rock-hdr/" target="_blank"><img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgetwallpapers.com%2Fwallpaper%2Ffull%2F0%2F7%2F3%2F820767-full-hd-nature-wallpapers-1920x1080-for-meizu.jpg&f=1&nofb=1&ipt=e5905f8eb80278748eb800d03d094ce039883819f2c5b132e977aceee62154f0&ipo=images" alt="Nature 1"></a>
+            <a href="https://jooinn.com/nature-193.html" target="_blank"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2019%2F09%2F295784-mountains-landscapes-nature-california-streams-land.jpg&f=1&nofb=1&ipt=47745165b494e2244395d7cb0f3b4242ef47bd83a7c1f76473edb71b27bb542b&ipo=images" alt="Nature 2"></a>
+            <a href="https://pxhere.com/en/photo/542390" target="_blank"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.undp.org%2Fsites%2Fg%2Ffiles%2Fzskgke326%2Ffiles%2Fmigration%2Fcn%2FUNDP-CH-Why-Humanity-Must-Save-Nature-To-Save-Itself.jpeg&f=1&nofb=1&ipt=5761526f44b610c8c95c18cbebd8067065204b75ba5b1d538483a89dc38a1c24&ipo=images" alt="Nature 3"></a>
+        </div>
+    </section>
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.hotelphotographers.eu%2Fwp-content%2Fuploads%2F2015%2F11%2FFood-photo-7.jpg&f=1&nofb=1&ipt=0404d646b27227f0f6c8d5cde808e6ba7fd07fa1b5fbeb9775fffe888cf57a6c&ipo=images" target="_blank">Meat balls</a></li>
+            <li><a href="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcarolinesaysthanks.files.wordpress.com%2F2010%2F11%2Fyummy-healthy-dinner.jpg&f=1&nofb=1&ipt=e49cf87fc795ae2ef36c6129a65b05706214361dd219df816502bb5df6105074&ipo=images" target="_blank">Spaghetti</a></li>
+            <li><a href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.heilpraxisnet.de%2Fwp-content%2Fuploads%2F2018%2F10%2FAktivkohle-Lebensmittel-1024x683.jpg&f=1&nofb=1&ipt=f240610dbb485e1205ef94c59f0f3fc47543a9af6b74ce28cefc097528190aa3&ipo=images" target="_blank">Burger</a></li>
+        </ul>
+    </section>
+</body>
+</html>
